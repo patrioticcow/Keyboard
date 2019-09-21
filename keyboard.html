@@ -1,1 +1,157 @@
-keyboard.html
+<div id="patrioticcow_container">
+    <ul id="patrioticcow_keyboard">
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">`</span><span class="patrioticcow_on">~</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">1</span><span class="patrioticcow_on">!</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">2</span><span class="patrioticcow_on">@</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">3</span><span class="patrioticcow_on">#</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">4</span><span class="patrioticcow_on">$</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">5</span><span class="patrioticcow_on">%</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">6</span><span class="patrioticcow_on">^</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">7</span><span class="patrioticcow_on">&amp;</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">8</span><span class="patrioticcow_on">*</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">9</span><span class="patrioticcow_on">(</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">0</span><span class="patrioticcow_on">)</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">-</span><span class="patrioticcow_on">_</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">=</span><span class="patrioticcow_on">+</span></li>
+        <li class="patrioticcow_delete patrioticcow_lastitem">delete</li>
+        <li class="patrioticcow_tab">tab</li>
+        <li class="patrioticcow_letter">q</li>
+        <li class="patrioticcow_letter">w</li>
+        <li class="patrioticcow_letter">e</li>
+        <li class="patrioticcow_letter">r</li>
+        <li class="patrioticcow_letter">t</li>
+        <li class="patrioticcow_letter">y</li>
+        <li class="patrioticcow_letter">u</li>
+        <li class="patrioticcow_letter">i</li>
+        <li class="patrioticcow_letter">o</li>
+        <li class="patrioticcow_letter">p</li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">[</span><span class="patrioticcow_on">{</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">]</span><span class="patrioticcow_on">}</span></li>
+        <li class="patrioticcow_symbol patrioticcow_lastitem"><span class="patrioticcow_off">\</span><span class="patrioticcow_on">|</span></li>
+        <li class="patrioticcow_capslock">caps lock</li>
+        <li class="patrioticcow_letter">a</li>
+        <li class="patrioticcow_letter">s</li>
+        <li class="patrioticcow_letter">d</li>
+        <li class="patrioticcow_letter">f</li>
+        <li class="patrioticcow_letter">g</li>
+        <li class="patrioticcow_letter">h</li>
+        <li class="patrioticcow_letter">j</li>
+        <li class="patrioticcow_letter">k</li>
+        <li class="patrioticcow_letter">l</li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">;</span><span class="patrioticcow_on">:</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">'</span><span class="patrioticcow_on">&quot;</span></li>
+        <li class="patrioticcow_return patrioticcow_lastitem">return</li>
+        <li class="patrioticcow_left-shift">shift</li>
+        <li class="patrioticcow_letter">z</li>
+        <li class="patrioticcow_letter">x</li>
+        <li class="patrioticcow_letter">c</li>
+        <li class="patrioticcow_letter">v</li>
+        <li class="patrioticcow_letter">b</li>
+        <li class="patrioticcow_letter">n</li>
+        <li class="patrioticcow_letter">m</li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">,</span><span class="patrioticcow_on">&lt;</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">.</span><span class="patrioticcow_on">&gt;</span></li>
+        <li class="patrioticcow_symbol"><span class="patrioticcow_off">/</span><span class="patrioticcow_on">?</span></li>
+        <li class="patrioticcow_right-shift patrioticcow_lastitem">shift</li>
+        <li class="patrioticcow_space patrioticcow_lastitem">&nbsp;</li>
+        <li class="patrioticcow_letter patrioticcow_letter_close">close</li>
+    </ul>
+</div>
+
+<style type="text/css">
+    .patrioticcow_container {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    }
+
+    #patrioticcow_container {
+        width: 560px;
+        padding: 5px 0 0 5px;
+        font-family: "Arial", Georgia, Serif !important;
+        font-size: 14px !important;
+    }
+
+    #patrioticcow_keyboard {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_letter_close {
+        font-size: 12px;
+        color: red;
+        width: 40px;
+    }
+
+    #patrioticcow_keyboard li {
+        float: left;
+        margin: 0 5px 5px 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background: #FFFFFF;
+        border: 1px solid #f9f9f9;
+        -webkit-border-radius: 3px;
+        color: #000000;
+    }
+
+    .patrioticcow_capslock, .patrioticcow_tab, .patrioticcow_left-shift {
+        clear: left;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_tab, #patrioticcow_keyboard .patrioticcow_delete {
+        width: 70px;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_capslock {
+        width: 80px;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_return {
+        width: 57px;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_left-shift {
+        width: 80px;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_right-shift {
+        width: 94px;
+    }
+
+    .patrioticcow_lastitem {
+        margin-right: 0;
+    }
+
+    .patrioticcow_uppercase {
+        text-transform: uppercase;
+    }
+
+    #patrioticcow_keyboard .patrioticcow_space {
+        clear: left;
+        width: 504px;
+    }
+
+    .patrioticcow_on {
+        display: none;
+    }
+
+    #patrioticcow_keyboard li:hover {
+        position: relative;
+        cursor: pointer;
+        background: #505050;
+        color: #fff;
+    }
+
+    #patrioticcow_keyboard li:active {
+        position: relative;
+        cursor: pointer;
+        background: #3A90EC;
+        color: #fff;
+    }
+</style>

@@ -1,3 +1,52 @@
-html{
-	/* Defaults css for cssmin process */
+html {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.patrioticcow_chrcom_keyboard_container {
+    position: absolute;
+    z-index: 100000;
+    background: #323232;
+    padding: 0;
+
+    -webkit-box-shadow: 0 0 20px #DADADA;
+    box-shadow: 0 0 20px #DADADA;
+    border-radius: 5px;
+}
+
+.patrioticcow_chrcom_keyboard {
+    position: absolute;
+    z-index: 100000;
+
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #5bc0de;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    width: 38px;
+    height: 21px;
+}
+
+.patrioticcow_chrcom_keyboard:hover {
+    color: #fff;
+    background-color: #39b3d7;
+    border-color: #269abc;
+}
+
+.patrioticcow_chrcom_keyboard:active {
+    background-image: none;
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
