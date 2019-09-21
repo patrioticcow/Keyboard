@@ -14,8 +14,8 @@ $(document).ready(function () {
   var classContName = 'patrioticcow_chrcom_keyboard_container'
   var iEl = localStorage['patrioticcow_chrcom_data'] ? localStorage['patrioticcow_chrcom_data'] : inputElement
   var inputs = $(document).find(iEl)
-  var img = chrome.extension.getURL('images/keyboard.png')
-  var keyboardHtml = chrome.extension.getURL('keyboard.html')
+  var img = chrome.extension ? chrome.extension.getURL('images/keyboard.png') : '';
+  var keyboardHtml = chrome.extension ? chrome.extension.getURL('keyboard.html') : '';
 
   $.each(inputs, function (k, el) {
     if ($(el).prop('type') !== 'hidden') {
